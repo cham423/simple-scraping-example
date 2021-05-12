@@ -48,7 +48,7 @@ def sendPushoverNotification(message):
 # main loop
 while True:
     # set the current timestamp to now
-    checkTime = datetime.now().isoformat()
+    checkTime = datetime.utcnow().isoformat()
 
     # make the request to the page
     try:
