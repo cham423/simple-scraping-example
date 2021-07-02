@@ -1,5 +1,5 @@
 ## Repo Overview
-This is a simple example of a web scraping script, designed to accompany my Source Zero Con talk which will be on May 27th, 2021 at 13:00 Eastern Time. I hope to see you there!
+This is a simple example of a web scraping script, designed to accompany my Source Zero Con talk which happened on May 27th, 2021 at 13:00 Eastern Time. A recording of the talk is available at [https://youtu.be/nSqzyd-nDcY](https://youtu.be/nSqzyd-nDcY)
 
 ## Script Overview
 I built this script to scrape a tattoo artist's web page, determine if their books are open or closed, and store the results in a json object. It also notifies me using pushover if the web content changes, the program exits, or if the books are determined to be open.
